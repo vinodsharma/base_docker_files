@@ -13,3 +13,5 @@ RUN pip install --upgrade --no-cache-dir mysql-python
 RUN pip install --upgrade --no-cache-dir python-dotenv
 RUN pip install --upgrade --no-cache-dir awscli
 RUN pip install --upgrade --no-cache-dir boto3
+RUN pip install --upgrade --no-cache-dir logdna
+RUN pip install --upgrade --no-cache-dir bugsnag
